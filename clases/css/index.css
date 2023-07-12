@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.5rem solid black;
+    display: flex;
+    
+    column-gap: 0.3rem;
+    align-items:center;
+    justify-content:center;
+    height: 50vh;
+    
+    
+   
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+    
+}
+.box1{
+    background-color: aqua;
+    
+}
+.box2{
+    background-color: rgb(51, 255, 0);
+    flex-grow: 2;
+}
+.box3{
+    background-color: rgb(21, 0, 255);
+}
+.box4{
+    background-color: rgb(255, 0, 187);
+}
+.box5{
+    background-color: rgb(255, 0, 0);
+}
+.box6{
+    background-color: rgb(255, 217, 0);
+}
