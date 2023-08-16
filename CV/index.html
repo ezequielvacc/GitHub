@@ -4,26 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head scroll-padding-top: 3rem;>
 <body>
     <header>
-      <nav>
-        <ul class="menu">
-          <li class="menu-sec" ><a class="menu-sec-item" href="#personal-info">Información Personal</a></li>
-          <li class="menu-sec"><a class="menu-sec-item" href="#experience">Experiencia Laboral</a></li>
-          <li class="menu-sec"><a class="menu-sec-item" href="#education">Educación</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="bar">
+        <div class="container-fluid">
+          <a class="navbar-brand navbar-logo" href="#">
+            <img src="/CV/img/logo 1.png" alt="Logo"  class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#personal-info">Información Personal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Educación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experiencia Laboral</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Redes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://example.com/foto-perro.jpg" class="d-block w-100" alt="Imagen 1">
+          </div>
+          <div class="carousel-item">
+            <img src="../TrabajoPractico/img/Hardware/Disco duro.jpg" class="d-block w-100" alt="Imagen 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://example.com/foto-leon.jpg" class="d-block w-100" alt="Imagen 3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Siguiente</span>
+        </a>
+      </div>
     </header>
     <main>
     <section id="personal-info">
       <h2>Información Personal</h2>
-      <p><strong>Nombre:</strong> Juan Pérez</p>
-      <p><strong>Dirección:</strong> Calle Principal, 123</p>
-      <p><strong>Teléfono:</strong> 123456789</p>
-      <p><strong>Email:</strong> juanperez@example.com</p>
+      <p><strong>Nombre:</strong> Ezequiel Vacalluzzo</p>
+      <p><strong>Dirección:</strong> Rio De la Plata, 9100</p>
+      <p><strong>Teléfono:</strong> 1566756612</p>
+      <p><strong>Email:</strong> Ezequiel.vacc@gmail.com</p>
     </section>
     
     <section id="experience">
@@ -57,11 +105,11 @@
       </article>
     </section>
     </main>
-    <footer>
+    <footer id="footer">
       <div class="contact-info">
         <h3>Información de Contacto</h3>
-        <p><strong>Teléfono:</strong> 123456789</p>
-        <p><strong>Email:</strong> juanperez@example.com</p>
+        <p><strong>Teléfono:</strong> 1566756612</p>
+        <p><strong>Email:</strong> Ezequiel.vacc@gmail.com</p>
       </div>
       <div class="social-media">
         <h3>Redes Sociales</h3>
@@ -73,4 +121,5 @@
       </div>
     </footer>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 </html>
